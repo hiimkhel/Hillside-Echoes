@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.teen-center-section{
+    display: flex;
+    padding: 2rem 3rem 0rem 3rem;
+    gap: 24px;
+}
+.text-col{
+    display: flex;
+    margin-top: 12px;
+    gap: 40px;
+    
+}
+.col{
+    flex: 1;
+}
+.img{
+    width: 600px;
+    height: 450px;
+}
+.section-title{
+    font-family: Alfa Slab One, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-indent: 1.2em; 
+}
+.section-author{
+    margin-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+.author-divider{
+    height: 6px;
+    width: 40%;
+     background: linear-gradient(to right,  
+              #ffed4d,  
+              #ff7b0e,  
+              #ffed4d); 
+}
+.section-text{
+    font-size: 15.5px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2em;
+    text-indent: 2em; 
+    margin-bottom: 1em; 
+
+}
+
+/*Banner Styles*/
+.banner{
+     background: linear-gradient(to right,  
+              #ffed4d,  
+              #ff7b0e,  
+              #ffed4d);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-banner{
+    align-self: center;
+    background-color: #0f0f3d;
+    display: flex;
+    width: 100%;
+    gap: 240px;
+    height: 220px;
+}
+.banner-date-and-title{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    padding: 8px 24px 0px 24px;
+}
+.banner-date{
+    color: white;
+    font-family: 'Rozha One', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1em;
+}
+.banner-title-one {
+  font-family: 'Black Ops One', sans-serif;
+  font-size: 56px;
+  margin-top: 20px;
+  color: transparent;
+  -webkit-text-stroke: 1px #0f0f3d; /* White outline */
+  text-shadow:
+    1px -1px 0 #ffffff,   /* Soft white upper-right highlight */
+    3px -3px 0 #0f0f3d,   /* Orange mid-layer */
+    5px -5px 0 #0f0f3d,   /* Pink deeper layer */
+    7px -7px 0 #ffffff;   /* Gold deepest shadow */
+}
+.banner-title-two{
+    font-family: 'Black Ops One', system-ui;
+    font-size: 64px;
+    font-size: 64px;
+    text-indent: 2em;
+    color: transparent;
+    -webkit-text-stroke: 1px #0f0f3d; /* White outline */
+    text-shadow:
+    1px -1px 0 #ffde59,   /* Soft white upper-right highlight */
+    3px -3px 0 #0f0f3d,   /* Orange mid-layer */
+    5px -5px 0 #0f0f3d,   /* Pink deeper layer */
+    7px -7px 0 #ffde59   /* Gold deepest shadow */
+    
+    
+}
+.banner-img{
+    width: 350px;
+}
