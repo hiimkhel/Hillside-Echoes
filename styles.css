@@ -21,9 +21,9 @@
     height: 450px;
 }
 .section-title{
-    font-family: Alfa Slab One, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    font-weight: 500;
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
     text-indent: 1.2em; 
 }
 .section-author{
@@ -52,9 +52,11 @@
 .banner{
      background: linear-gradient(to right,  
               #ffed4d,  
-              #ff7b0e,  
+              #ff7b0e, 
+              #ff7b0e, 
+              #ff7b0e,
               #ffed4d);
-    height: 250px;
+    height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,24 +66,26 @@
     background-color: #0f0f3d;
     display: flex;
     width: 100%;
-    gap: 240px;
-    height: 220px;
+    height: 250px;
+}
+.banner-left{
+    width: 100%;
 }
 .banner-date-and-title{
     display: flex;
     justify-content: flex-start;
-    gap: 100px;
+    gap: 200px;
     padding: 8px 24px 0px 24px;
 }
 .banner-date{
     color: white;
     font-family: 'Rozha One', 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 1em;
 }
 .banner-title-one {
   font-family: 'Black Ops One', sans-serif;
-  font-size: 56px;
+  font-size: 72px;
   margin-top: 20px;
   color: transparent;
   -webkit-text-stroke: 1px #0f0f3d; /* White outline */
@@ -93,9 +97,9 @@
 }
 .banner-title-two{
     font-family: 'Black Ops One', system-ui;
-    font-size: 64px;
-    font-size: 64px;
-    text-indent: 2em;
+    font-size: 82px;
+    text-indent: 1.5em;
+    margin-top: -20px;
     color: transparent;
     -webkit-text-stroke: 1px #0f0f3d; /* White outline */
     text-shadow:
@@ -105,6 +109,19 @@
     7px -7px 0 #ffde59   /* Gold deepest shadow */
     
     
+}
+.banner-member{
+    font-family: 'Rozha One', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 18px;
+    margin-left: 160px;
+    margin-top: -10px;
+}
+.banner-publication{
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 15px;
+    margin-left: 100px;
 }
 .banner-img{
     width: 350px;
