@@ -88,25 +88,25 @@
   font-size: 72px;
   margin-top: 20px;
   color: transparent;
-  -webkit-text-stroke: 1px #0f0f3d; /* White outline */
+  -webkit-text-stroke: 1px #0f0f3d; 
   text-shadow:
-    1px -1px 0 #ffffff,   /* Soft white upper-right highlight */
-    3px -3px 0 #0f0f3d,   /* Orange mid-layer */
-    5px -5px 0 #0f0f3d,   /* Pink deeper layer */
-    7px -7px 0 #ffffff;   /* Gold deepest shadow */
+    1px -1px 0 #ffffff,   
+    3px -3px 0 #0f0f3d,   
+    5px -5px 0 #0f0f3d,   
+    7px -7px 0 #ffffff;   
 }
 .banner-title-two{
     font-family: 'Black Ops One', system-ui;
-    font-size: 82px;
+    font-size: 90px;
     text-indent: 1.5em;
     margin-top: -20px;
     color: transparent;
-    -webkit-text-stroke: 1px #0f0f3d; /* White outline */
+    -webkit-text-stroke: 1px #0f0f3d;
     text-shadow:
-    1px -1px 0 #ffde59,   /* Soft white upper-right highlight */
-    3px -3px 0 #0f0f3d,   /* Orange mid-layer */
-    5px -5px 0 #0f0f3d,   /* Pink deeper layer */
-    7px -7px 0 #ffde59   /* Gold deepest shadow */
+    1px -1px 0 #ffde59,   
+    3px -3px 0 #0f0f3d,   
+    5px -5px 0 #0f0f3d,   
+    7px -7px 0 #ffde59   
     
     
 }
