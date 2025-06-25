@@ -126,3 +126,46 @@
 .banner-img{
     width: 350px;
 }
+
+/*CDSA Section Styles*/
+.cdsa-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.cdsa-left{
+    flex: 2;
+    margin-left: 110px;
+}
+.cdsa-title{
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
+    color: #f9943b;
+    line-height: 1em;
+    font-size: 4.7rem;
+    max-width: 90%;
+    font-weight: 500;
+}
+.cdsa-author{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .83rem;
+}
+.author-divider-cdsa{
+    height: 6px;
+    max-width: 380px;
+     background: linear-gradient(to right,  
+              #ffed4d,  
+              #ff7b0e,  
+              #ffed4d); 
+}
+.cdsa-img{
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+.cdsa-right-section{
+    flex: 1;
+    min-width: 280px;
+    margin-right: 10px;
+    background-color: #0f0f3d;
+}
