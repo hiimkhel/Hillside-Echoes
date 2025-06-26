@@ -255,3 +255,8 @@
     padding: 1rem;
     border-radius: 40px;
 }
+.crosswise{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
