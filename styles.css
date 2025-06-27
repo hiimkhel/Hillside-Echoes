@@ -13,6 +13,20 @@
     gap: 40px;
     
 }
+.with-margin-top-less{
+    margin-top: -40px;
+}
+.black{
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.smaller-text{
+    font-size: .8rem;
+       font-family: 'Times New Roman', Times, serif;
+    line-height: 1.1em;
+    text-indent: 2em; 
+    margin-bottom: 1em; 
+}
 .text-col-with-image{
     display: flex;
 }
@@ -22,6 +36,11 @@
 .justify{
     text-align: center;
     
+}
+.small-title{
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 400;
 }
 .col{
     flex-direction: column;
@@ -54,7 +73,7 @@
               #ffed4d); 
 }
 .section-text{
-    font-size: 15.5px;
+    font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.2em;
     text-indent: 2em; 
@@ -181,8 +200,8 @@
 }
 .cdsa-right-section{
     position: relative;
-    flex: 0 0 200px;
-    max-width: 200px;
+    flex: 0 0 250px;
+    max-width: 250px;
     padding: 1.5rem 1.2rem;
     min-width: 150px;
     margin-right: 25px;
@@ -246,15 +265,15 @@
 }
 .yellow{
     background-color: #ffde5952;
+    padding: 2rem;
 }
 
-.black-border-section{
+.lengthwise-section{
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    border: 2px solid black;
+    min-width: 250px;
     padding: 1rem;
-    border-radius: 40px;
+
 }
 .crosswise{
     width: 100%;
@@ -265,7 +284,7 @@
     min-width: 50%;
 }
 .big-text{
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 .temp{
     height: 450px;
