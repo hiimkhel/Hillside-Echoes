@@ -100,7 +100,7 @@
 }
 .banner-title-one {
   font-family: 'Black Ops One', sans-serif;
-  font-size: 72px;
+  font-size: 4.5em;
   margin-top: 20px;
   color: transparent;
   -webkit-text-stroke: 1px #0f0f3d; 
@@ -112,7 +112,7 @@
 }
 .banner-title-two{
     font-family: 'Black Ops One', system-ui;
-    font-size: 90px;
+    font-size: 5.5em;
     text-indent: 1.5em;
     margin-top: -20px;
     color: transparent;
