@@ -226,13 +226,13 @@
 .inner-banner.news{
     height: 140px;
 }
-.news-num{
+.banner-num{
     font-family: 'Abril Fatface', 'Times New Roman', Times, serif;
     font-size: 5em;
     text-indent: 1.2em;
     color: white;
 }
-.news-title{
+.banner-title{
     font-family: 'Abril Fatface', 'Times New Roman', Times, serif;
     font-size: 5em;
     text-indent: 5em;
