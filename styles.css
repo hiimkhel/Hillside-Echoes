@@ -11,7 +11,11 @@
     display: flex;
     margin-top: 12px;
     gap: 40px;
-    
+}
+.text-col-no-gap{
+    display: flex;
+    margin-top: 12px;
+    gap: 5px;
 }
 .with-margin-top-less{
     margin-top: -40px;
@@ -36,6 +40,9 @@
 .justify{
     text-align: center;
     
+}
+.center-text{
+    align-self: center;
 }
 .small-title{
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
@@ -288,4 +295,12 @@
 }
 .temp{
     height: 450px;
+}
+.centered-container{
+    max-width: none;            /* Remove constraints */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        /* Center horizontally */
+    justify-content: center; 
 }
