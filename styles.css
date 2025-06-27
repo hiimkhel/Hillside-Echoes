@@ -220,11 +220,11 @@
 }
 /*NEWS Section Styles*/
 
-.banner.news{
-    height: 170px;
-}
-.inner-banner.news{
+.banner.page{
     height: 140px;
+}
+.inner-banner.page{
+    height: 110px;
 }
 .banner-num{
     font-family: 'Abril Fatface', 'Times New Roman', Times, serif;
