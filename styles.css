@@ -10,13 +10,13 @@
 .text-col{
     display: flex;
     margin-top: 12px;
-    gap: 40px;
+    gap: 12px;
 }
-.text-col-no-gap{
-    display: flex;
-    margin-top: 12px;
-    gap: 5px;
+.right-align{
+    text-align: right;
+    margin-left: auto;
 }
+
 .with-margin-top-less{
     margin-top: -40px;
 }
@@ -50,6 +50,8 @@
     font-weight: 400;
 }
 .col{
+    display: flex;
+    flex: 1;
     flex-direction: column;
 }
 .align-left{
