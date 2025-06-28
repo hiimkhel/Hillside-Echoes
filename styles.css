@@ -16,7 +16,9 @@
     text-align: right;
     margin-left: auto;
 }
-
+.italicized{
+    font-style: italic;
+}
 .with-margin-top-less{
     margin-top: -40px;
 }
