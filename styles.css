@@ -230,8 +230,16 @@
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    margin: 20px 0;
-    border: 2px solid black;
+    padding: 4px;
+    display:block;
+    margin-top: 5px;
+    background: linear-gradient(to right,  #ff7b0e, #ffed4d);
+}
+.cdsa-img::after {
+  content: '';
+  display: block;
+  position: relative;
+  background-color: white;
 }
 .cdsa-right-section{
     position: relative;
@@ -252,7 +260,7 @@
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 .news-img{
-    width: 100%; /* constrain to container */
+    width: 100%;
     height: auto;
     display: block;
     object-fit: contain;
