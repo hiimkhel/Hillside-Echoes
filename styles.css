@@ -26,11 +26,13 @@
     border: 2px solid black;
     border-radius: 40px;
 }
+.indented{
+    text-indent: 2em;
+}
 .smaller-text{
     font-size: .67rem;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.1em;
-    text-indent: 2em; 
     margin-bottom: 1em; 
 }
 .text-col-with-image{
@@ -126,7 +128,6 @@
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.1em;
-    text-indent: 2em; 
     margin-bottom: 1em; 
 }
 
