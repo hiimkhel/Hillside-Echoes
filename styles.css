@@ -128,6 +128,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow:visible;
+    z-index: 1;
     margin-top: 4px;
 }
 .inner-banner{
@@ -135,27 +138,29 @@
     background-color: #0f0f3d;
     display: flex;
     width: 100%;
+    z-index: 2;
     height: 250px;
 }
 .banner-left{
-    width: 100%;
+    flex: 1 1 300px;   /* Allows this section to grow/shrink with screen */
+    min-width: 280px;  /* Prevents content from becoming too small */
 }
 .banner-date-and-title{
     display: flex;
-    justify-content: flex-start;
-    gap: 200px;
-    padding: 8px 24px 0px 24px;
+    flex-wrap: wrap;
+    gap: clamp(20px, 6vw, 200px);
+    padding:  0.2rem 1rem;
 }
 .banner-date{
     color: white;
     font-family: 'Rozha One', 'Times New Roman', Times, serif;
-    font-size: 32px;
-    line-height: 1em;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    line-height: 1.1em;
 }
 .banner-title-one {
   font-family: 'Black Ops One', sans-serif;
-  font-size: 4.5em;
-  margin-top: 20px;
+  font-size: clamp(4rem, 2vw, 4.5rem);
+  margin-top: 8px;
   color: transparent;
   -webkit-text-stroke: 1px #0f0f3d; 
   text-shadow:
@@ -166,8 +171,8 @@
 }
 .banner-title-two{
     font-family: 'Black Ops One', system-ui;
-    font-size: 5.5em;
-    text-indent: 1.5em;
+    font-size: clamp(5rem, 2vw, 2rem);
+    text-indent: clamp(1em, 4vw, 3em);
     margin-top: -20px;
     color: transparent;
     -webkit-text-stroke: 1px #0f0f3d;
@@ -182,18 +187,22 @@
 .banner-member{
     font-family: 'Rozha One', 'Times New Roman', Times, serif;
     color: white;
-    font-size: 18px;
-    margin-left: 160px;
+    font-size: clamp(0.9rem, 1.3vw, 1.2rem);
+    margin-left: clamp(1rem, 8vw, 160px);
     margin-top: -10px;
 }
 .banner-publication{
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
     color: white;
-    font-size: 15px;
-    margin-left: 100px;
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+  margin-left: clamp(1rem, 6vw, 100px);
 }
 .banner-img{
-    width: 350px;
+    max-width: 100%;
+    height: auto;
+    width: clamp(160px, 22vw, 300px);
+    flex-shrink: 0; /* Ensures the image doesn't get squished too small */
+    object-fit: contain;
 }
 
 /*CDSA Section Styles*/
@@ -353,3 +362,20 @@
     text-align: center;
     font-weight: 400;
 }
+
+/*CSS Media Queries*/
+/* Small devices (phones) */
+@media (max-width: 576px) {
+  /* mobile styles */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  /* tablet styles */
+}
+
+/* Large devices (desktops) */
+@media (max-width: 1325px ) {
+  
+}
+
