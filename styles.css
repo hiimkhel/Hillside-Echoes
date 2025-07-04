@@ -6,11 +6,15 @@
 .text-col{
     display: flex;
     margin-top: 12px;
-    gap: 12px;
+    gap: 20px;
 }
 .right-align{
     text-align: right;
     margin-left: auto;
+}
+.left-align{
+    text-align: left;
+    margin-right: auto;
 }
 .italicized{
     font-style: italic;
@@ -51,6 +55,16 @@
     display: flex;
     flex: 1;
     flex-direction: column;
+}
+.wide-col{
+    margin-top: 12px;
+    min-width: 55%;
+}
+.wide-col-text{
+    font-size: 1.2rem;
+    text-indent: 1.2em;
+    margin-bottom: 1.1em;
+    line-height: 1.7em;
 }
 .align-left{
     font-size: .8rem;
@@ -343,17 +357,19 @@
     min-width: 50%;
 }
 .big-text{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-indent: 1em;
+    margin-bottom: 1.1em;
 }
 .temp{
     height: 450px;
 }
 .centered-container{
-    max-width: none;            /* Remove constraints */
+    max-width: none;            
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;        /* Center horizontally */
+    align-items: center;        
     justify-content: center; 
 }
 .sports-title{
