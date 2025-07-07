@@ -2,7 +2,45 @@
     margin: 0;
     padding: 0;
 }
+/*Font size Legend
+    6.5  -> smallest-text
+    6.9/6.8 -> smaller-text
+    7.5 -> small-text
+    7.8  -> medium-text
+    8.8 -> large-text
+    9 -> larger-text
+    9.8 -> largest-text
+*/
 
+/*FONT SIZES STYLES*/
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1.1em;
+}
+.smallest{
+    font-size: .9rem;
+}
+.smaller{
+    font-size: 0.9rem;
+}
+.small{
+    font-size: 1.1rem;
+}
+.medium{
+    font-size: .67rem;
+    line-height: 1.1em;
+    margin-bottom: 1em; 
+}
+.large{
+
+}
+.larger{
+    font-size: 1.2rem;
+    text-indent: 1em;
+}
+.largest{
+
+}
 .text-col{
     display: flex;
     margin-top: 12px;
@@ -23,18 +61,13 @@
     margin-top: -40px;
 }
 .black{
-    border: 2px solid black;
+    border: 1.5px solid black;
     border-radius: 40px;
 }
 .indented{
     text-indent: 2em;
 }
-.smaller-text{
-    font-size: .67rem;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.1em;
-    margin-bottom: 1em; 
-}
+
 .text-col-with-image{
     display: flex;
 }
@@ -60,6 +93,10 @@
 }
 .wide-col{
     margin-top: 12px;
+    max-width: 50%;
+
+}
+.solo{
     min-width: 50%;
 }
 .wide-col-text{
@@ -96,8 +133,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Important to let the image stretch */
-    max-width: 50%; /* Or whatever size you want */
+    height: 100%; 
+    max-width: 50%; 
+}
+.img-wrapper-crosswise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;          
+    height: auto;
+    max-height: 350px;    
+    overflow: hidden;      
+    margin-bottom: 1rem; 
 }
 .section-img::after {
   content: '';
@@ -139,7 +186,7 @@
               #ff7b0e, 
               #ff7b0e,
               #ffed4d);
-    height: 280px;
+    height: clamp(180px, 25vw, 280px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,9 +199,11 @@
     align-self: center;
     background-color: #0f0f3d;
     display: flex;
-    width: 100%;
+    flex-wrap: wrap; 
+    width: 100%; 
     z-index: 2;
-    height: 250px;
+    height: clamp(160px, 22vw, 250px);
+    gap: 1rem;
 }
 .banner-left{
     flex: 1 1 300px;   /* Allows this section to grow/shrink with screen */
@@ -338,14 +387,27 @@
 }
 .yellow{
     background-color: #ffde5952;
-    padding: 2rem;
+    padding: 2rem 1rem 0rem 2rem;
 }
-
+#teachers-img-wrapper{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #ff7b0e, #ffed4d);
+    padding: 4px;
+    box-sizing: border-box;
+}
+#teachers-img{
+    width: 100%;
+    height: clamp(400px, 50vw, 470px); /* Taller but responsive */
+    object-fit: cover;
+    display: block;
+    border-radius: 6px; /* Optional visual improvement */
+}
 .lengthwise-section{
     display: flex;
     flex-direction: column;
-    min-width: 250px;
-    max-width: 270px;
+    min-width: 280px;
+    max-width: 280px;
     padding: 1rem;
 
 }
@@ -356,11 +418,6 @@
 }
 .title-with-image{
     min-width: 50%;
-}
-.big-text{
-    font-size: 1.2rem;
-    text-indent: 1em;
-    margin-bottom: 1.1em;
 }
 .temp{
     height: 450px;
