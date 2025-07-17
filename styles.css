@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+
 /*Font size Legend
     6.5  -> smallest-text
     6.9/6.8 -> smaller-text
@@ -135,7 +137,7 @@
     height: auto;
     object-fit: cover;
     display: block;
-    margin-left: -40px;
+    margin-left: 0px;
     margin-top: -50px;
 
 }
@@ -143,7 +145,6 @@
     flex: 1.5;
     position: relative;
     z-index: -1;
-    
 }
 .no-margin-top{
     margin-top: -50px;
