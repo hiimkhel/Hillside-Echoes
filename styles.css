@@ -21,7 +21,7 @@
     font-size: .9rem;
 }
 .smaller{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .small{
     font-size: 1.1rem;
@@ -119,7 +119,8 @@
     text-indent: 1.2em; 
 }
 .section-img{
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
     height: auto;
     object-fit: cover;
     display: block;
@@ -130,7 +131,17 @@
     border-radius: 48px;
 }
 .image-desc{
+    font-size: .5rem;
+}
+.image-desc-cdsa{
+    font-size: .9rem;
+    font-weight: 100;
+    margin: 4px;
+}
+.image-desc-yellow{
     font-size: .6rem;
+    font-weight: 100;
+    margin: 4px;
 }
 .img-wrapper{
     display: flex;
@@ -138,6 +149,7 @@
     justify-content: space-between;
     height: 100%; 
     max-width: 50%; 
+    min-width: 50%;
 }
 .img-wrapper-half-crosswise{
     display: flex;
@@ -320,6 +332,9 @@
     margin-top: 5px;
     background: linear-gradient(to right,  #ff7b0e, #ffed4d);
 }
+.cdsa{
+    margin-top: 28px;
+}
 .cdsa-img::after {
   content: '';
   display: block;
@@ -329,12 +344,12 @@
 .cdsa-right-section{
     position: relative;
     flex: 0 0 250px;
-    max-width: 220px;
+    max-width: 250px;
     padding: 1.5rem 1.2rem;
-    min-width: 220px;
-    margin-right: 25px;
+    min-width: 250px;
+    margin-right: 12px;
     margin-top: 4px;
-    background-color: #daac4a;
+    background-color: #ffd858;
 }
 .cdsa-right-text{
     color: black;
@@ -345,25 +360,26 @@
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 .news-img{
-    width: 100%;
+    max-width: 135%;
     height: auto;
     display: block;
     object-fit: contain;
 }
 .news-img.one{
-    margin: 0rem -2rem 0rem auto;
+    margin: -5rem 0rem 0rem -2rem;
 
 }
 .news-img.two{
-    margin: 2rem auto -2rem -2.5rem;
+    margin: -8rem 0rem 0rem -3rem;
 }
 .news-img.three{
-    margin: 10rem auto auto auto;
+    margin: 1rem auto 4rem -1.8rem;
+    width: 120%;
 }
 .black-divider{
     background-color: #000000;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-    height: 4px;
+    height: 8px;
 }
 /*NEWS Section Styles*/
 
@@ -391,6 +407,16 @@
     margin-bottom: 12px;
     gap: 24px;
     align-items: stretch;
+}
+.news-section-yellow{
+    display: flex;
+    padding: 0rem 3rem 2rem 0rem;
+    margin-bottom: 12px;
+    width: 94%;
+    margin-left: auto;
+    gap: 24px;
+    align-items: stretch;
+    background-color: #ffde5952;
 }
 .news-flex-container{
     display: flex;
