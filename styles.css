@@ -16,12 +16,13 @@
 .text{
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 1.1em;
+    text-align: justify;
 }
 .smallest{
     font-size: .9rem;
 }
 .smaller{
-    font-size: 1rem;
+    font-size: 1.05rem;
 }
 .small{
     font-size: 1.1rem;
@@ -32,7 +33,7 @@
     margin-bottom: 1em; 
 }
 .large{
-
+    font-size: 1.2rem;
 }
 .larger{
     font-size: 1.2rem;
@@ -45,6 +46,8 @@
     display: flex;
     margin-top: 12px;
     gap: 20px;
+    position: relative;
+    align-items: stretch;
 }
 .right-align{
     text-align: right;
@@ -119,13 +122,31 @@
     text-indent: 1.2em; 
 }
 .section-img{
+    object-fit: cover;
+    display: block;
     max-width: 100%;
     min-width: 100%;
+    background: linear-gradient(to right,  #ff7b0e, #ffed4d);
+    padding: 4px;
+}
+.non-wrapped-img{
+    width: 120%;
+    max-width: none;
     height: auto;
     object-fit: cover;
     display: block;
-    background: linear-gradient(to right,  #ff7b0e, #ffed4d);
-    padding: 4px;
+    margin-left: -40px;
+    margin-top: -50px;
+
+}
+.non-wrapped-container{
+    flex: 1.5;
+    position: relative;
+    z-index: -1;
+    
+}
+.no-margin-top{
+    margin-top: -50px;
 }
 .rounded{
     border-radius: 48px;
@@ -139,7 +160,8 @@
     margin: 4px;
 }
 .image-desc-yellow{
-    font-size: .6rem;
+    font-size: .7rem;
+    letter-spacing: 1px;
     font-weight: 100;
     margin: 4px;
 }
@@ -169,6 +191,20 @@
     height: auto;
     max-height: 350px;    
     margin-bottom: 1rem; 
+}
+.img-wrapper-lengthwise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-height: 150%;
+}
+.section-img-lengthwise{
+    object-fit: cover;
+    display: block;
+    box-shadow: 4px 4px 10px rgba(27, 26, 26, 0.705);
+    width: 100%;
+    border-radius: 68px;
 }
 .section-img::after {
   content: '';
@@ -410,8 +446,7 @@
 }
 .news-section-yellow{
     display: flex;
-    padding: 0rem 3rem 2rem 0rem;
-    margin-bottom: 12px;
+    padding: 0rem 3rem .5rem 0rem;
     width: 94%;
     margin-left: auto;
     gap: 24px;
@@ -422,6 +457,7 @@
     display: flex;
     align-items: stretch; 
     gap: 20px; 
+    margin-top: 2em;
 }
 .yellow{
     background-color: #ffde5952;
@@ -452,7 +488,14 @@
     min-width: 280px;
     max-width: 280px;
     padding: 1rem;
-
+}
+.lengthwise-text-col{
+    display: flex;
+    min-width: 50%;
+    max-width: 50%;
+    gap: 40px;
+    line-height: 1.5rem;
+    margin-top: 20px;
 }
 .crosswise{
     width: 100%;
