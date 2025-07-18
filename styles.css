@@ -329,7 +329,7 @@
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
     color: white;
     font-size: clamp(0.8rem, 1.2vw, 1rem);
-    margin-left: clamp(1.2rem, 5vw, 100px);
+    margin-left: clamp(1.2rem, 5vw, 10px);
 }
 .banner-img{
     max-width: 100%;
@@ -539,6 +539,74 @@
 /* Small devices (phones) */
 @media (max-width: 576px) {
   /* mobile styles */
+  .news-section{
+    gap: 10px;
+    flex-direction: column;
+    padding: 2em 1.5em 0em 1.5em;
+  }
+
+  .section-title{
+    font-size: 25px;
+  }
+  .section-author{
+    font-size: 10px;
+  }
+  .text-col{
+    text-align: justify;
+    font-size: 1em;
+  }
+  .img-wrapper{
+    max-width: 100%;
+  }
+  .image-desc{
+    font-size: 6px;
+  }
+
+  /*Banner Responsiveness*/
+  .banner{
+    max-height: 140px;
+  }
+  .inner-banner{
+    max-height: 120px;
+  }
+  .banner-left{
+    min-width: min-content;
+  }
+  .banner-date-and-title{
+    padding: 6px;
+    gap: 10px;
+  }
+  .banner-date{
+    font-size: .9em;
+  }
+  .banner-title-one{
+    font-size: 2.5em;
+    margin-bottom: .3rem;
+    -webkit-text-stroke: 1px #0f0f3d; 
+    text-shadow:
+    .5px -.5px 0 #ffffff,   
+    2px -2px 0 #0f0f3d,   
+    3px -3px 0 #0f0f3d,   
+    4px -4px 0 #ffffff;   
+  }
+  .banner-title-two{
+    font-size: 2.3em;
+
+    margin-left: -18px;
+    -webkit-text-stroke: 1px #0f0f3d;
+    text-shadow:
+    .5px -.5px 0 #ffde59,   
+    2px -2px 0 #0f0f3d,   
+    3px -3px 0 #0f0f3d,   
+    4px -4px 0 #ffde59  
+    
+  }
+  .banner-member{
+    font-size: .6em;
+  }
+  .banner-publication{
+    font-size: .3em;
+  }
 }
 
 /* Medium devices (tablets) */
