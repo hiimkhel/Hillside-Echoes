@@ -217,7 +217,11 @@
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: 400;
-   
+}
+.lengthwise-section-title{
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
 }
 .section-author{
     margin-top: 8px;
@@ -274,12 +278,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: clamp(20px, 6vw, 200px);
-    padding:  0.2rem 1rem;
+    padding:  1rem;
 }
 .banner-date{
     color: white;
     font-family: 'Rozha One', 'Times New Roman', Times, serif;
     font-size: clamp(1.2rem, 2vw, 2rem);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block; /* or inline-block */
+    box-sizing: border-box;
     line-height: 1.1em;
 }
 .banner-title-one {
@@ -347,6 +356,9 @@
     font-size: 4.7rem;
     max-width: 90%;
     font-weight: 500;
+    overflow: hidden;
+    display: block; /* or inline-block */
+    box-sizing: border-box;
 }
 .cdsa-author{
     font-family: 'Times New Roman', Times, serif;
