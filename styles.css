@@ -251,7 +251,7 @@
               #ff7b0e, 
               #ff7b0e,
               #ffed4d);
-    height: clamp(180px, 25vw, 280px);
+    height: clamp(180px, 20vw, 280px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,8 +266,9 @@
     display: flex;
     flex-wrap: wrap; 
     width: 100%; 
+    height: clamp(160px, 20vw, 260px);
     z-index: 2;
-    height: clamp(160px, 22vw, 250px);
+
     gap: 1rem;
 }
 .banner-left{
@@ -322,7 +323,7 @@
     font-family: 'Rozha One', 'Times New Roman', Times, serif;
     color: white;
     font-size: clamp(0.9rem, 1.3vw, 1.2rem);
-    margin-left: clamp(1rem, 8vw, 160px);
+    margin-left: clamp(.5rem, 5vw, 160px);
     margin-top: -10px;
 }
 .banner-publication{
@@ -553,7 +554,10 @@
   }
   .text-col{
     text-align: justify;
-    font-size: 1em;
+  }
+  .section-text{
+    font-size: .8em;
+    line-height: 1em;
   }
   .img-wrapper{
     max-width: 100%;
@@ -563,12 +567,6 @@
   }
 
   /*Banner Responsiveness*/
-  .banner{
-    max-height: 140px;
-  }
-  .inner-banner{
-    max-height: 120px;
-  }
   .banner-left{
     min-width: min-content;
   }
@@ -577,10 +575,10 @@
     gap: 10px;
   }
   .banner-date{
-    font-size: .9em;
+    font-size: .8rem;
   }
   .banner-title-one{
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin-bottom: .3rem;
     -webkit-text-stroke: 1px #0f0f3d; 
     text-shadow:
@@ -591,7 +589,6 @@
   }
   .banner-title-two{
     font-size: 2.3em;
-
     margin-left: -18px;
     -webkit-text-stroke: 1px #0f0f3d;
     text-shadow:
@@ -610,9 +607,6 @@
 }
 
 /* Medium devices (tablets) */
-@media (min-width: 768px) {
-  /* tablet styles */
-}
 
 /* Large devices (desktops) */
 @media (max-width: 1325px ) {
