@@ -193,6 +193,13 @@
     max-height: 350px;    
     margin-bottom: 1rem; 
 }
+.banner-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    align-self: last baseline; 
+}
 .img-wrapper-lengthwise{
     display: flex;
     flex-direction: column;
@@ -251,7 +258,7 @@
               #ff7b0e, 
               #ff7b0e,
               #ffed4d);
-    height: clamp(180px, 20vw, 280px);
+    height: clamp(180px, 25vw, 280px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,7 +273,7 @@
     display: flex;
     flex-wrap: wrap; 
     width: 100%; 
-    height: clamp(160px, 20vw, 260px);
+    height: clamp(160px, 22vw, 250px);
     z-index: 2;
 
     gap: 1rem;
@@ -295,6 +302,7 @@
 .banner-title-one {
   font-family: 'Black Ops One', sans-serif;
   font-size: clamp(4rem, 2vw, 4.5rem);
+  margin-left: 6rem;
   margin-top: 8px;
   color: transparent;
   -webkit-text-stroke: 1px #0f0f3d; 
@@ -308,7 +316,7 @@
     font-family: 'Black Ops One', system-ui;
     font-size: clamp(5rem, 2vw, 2rem);
     text-indent: clamp(1em, 4vw, 3em);
-    margin-top: -20px;
+    margin-top: -3%;
     color: transparent;
     -webkit-text-stroke: 1px #0f0f3d;
     text-shadow:
@@ -316,8 +324,6 @@
     3px -3px 0 #0f0f3d,   
     5px -5px 0 #0f0f3d,   
     7px -7px 0 #ffde59   
-    
-    
 }
 .banner-member{
     font-family: 'Rozha One', 'Times New Roman', Times, serif;
@@ -567,6 +573,12 @@
   }
 
   /*Banner Responsiveness*/
+  .banner{
+    height: 140px ;
+  }
+  .inner-banner{
+    height: 120px;
+  }
   .banner-left{
     min-width: min-content;
   }
@@ -579,7 +591,7 @@
   }
   .banner-title-one{
     font-size: 2.5rem;
-    margin-bottom: .3rem;
+    margin-left: 3.7rem;
     -webkit-text-stroke: 1px #0f0f3d; 
     text-shadow:
     .5px -.5px 0 #ffffff,   
@@ -590,6 +602,7 @@
   .banner-title-two{
     font-size: 2.3em;
     margin-left: -18px;
+    margin-top: -1rem;
     -webkit-text-stroke: 1px #0f0f3d;
     text-shadow:
     .5px -.5px 0 #ffde59,   
@@ -603,6 +616,9 @@
   }
   .banner-publication{
     font-size: .3em;
+  }
+  .banner-logo{
+    width: auto;
   }
 }
 
