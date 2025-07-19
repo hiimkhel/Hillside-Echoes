@@ -279,8 +279,8 @@
     gap: 1rem;
 }
 .banner-left{
-    flex: 1 1 300px;   /* Allows this section to grow/shrink with screen */
-    min-width: 280px;  /* Prevents content from becoming too small */
+    flex: 1 1 160px;   /* Allows this section to grow/shrink with screen */
+    min-width: 160px;  /* Prevents content from becoming too small */
 }
 .banner-date-and-title{
     display: flex;
@@ -736,6 +736,33 @@
     }
 }
 
+@media (max-width: 320px){
+    .banner{
+        height: 90px;
+    }
+    .inner-banner{
+        height: 70px;
+    }
+    .banner-left{
+        width: 100px;
+    }
+    .banner-member{
+        font-size: .35rem;
+    }
+    .banner-title-one{
+        font-size: 1.8rem;
+    }
+    .banner-title-two{
+        font-size: 1.6rem;
+    }
+    .banner-publication{
+        font-size: .25rem;
+    }
+    .banner-logo{
+        width: 50px;
+        margin-right: -.1px;
+    }
+}
 /* Medium devices (tablets) */
 
 /* Large devices (desktops) */
