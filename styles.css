@@ -341,9 +341,10 @@
 .banner-img{
     max-width: 100%;
     height: auto;
-    width: clamp(160px, 22vw, 300px);
+    width: clamp(140px, 22vw, 400px);
     flex-shrink: 0; /* Ensures the image doesn't get squished too small */
     object-fit: contain;
+    margin-right: 2rem;
 }
 
 /*CDSA Section Styles*/
@@ -547,7 +548,7 @@
 @media (max-width: 576px) {
   /* mobile styles */
   .news-section{
-    gap: 10px;
+    gap: 6px;
     flex-direction: column;
     padding: 2em 1.5em 0em 1.5em;
   }
@@ -562,7 +563,7 @@
     text-align: justify;
   }
   .section-text{
-    font-size: .8em;
+    font-size: .7em;
     line-height: 1em;
   }
   .img-wrapper{
@@ -578,6 +579,7 @@
   }
   .inner-banner{
     height: 120px;
+    gap: 4px;
   }
   .banner-left{
     min-width: min-content;
@@ -615,13 +617,54 @@
     font-size: .6em;
   }
   .banner-publication{
-    font-size: .3em;
+    font-size: .4rem;
   }
   .banner-logo{
-    width: auto;
+    width: 120px;
+    margin-right: 1em;
   }
 }
-
+/* Screen Breakpoints */
+@media (max-width: 560px){
+    .inner-banner{
+        gap: .5rem;
+    }
+    .banner-publication{
+        margin-left: 0.5rem;
+    }
+    .banner-logo{
+        width: 100px;
+        margin-right: 1em;
+    }
+}
+@media (max-width: 425px){
+    .banner{
+        height: 120px;
+    }
+    .inner-banner{
+        height: 100px;
+    }
+    .banner-date{
+        font-size: .7rem;
+    }
+    .banner-title-one{
+        font-size: 2rem;
+        margin-left: 1em;
+    }
+    .banner-title-two{
+        font-size: 1.9rem;
+    }
+    .banner-member{
+        font-size: .5rem;
+    }
+    .banner-publication{
+        font-size: .3rem;
+    }
+    .banner-logo{
+        width: 90px;
+        margin-right: 0.9rem;
+    }
+}
 /* Medium devices (tablets) */
 
 /* Large devices (desktops) */
