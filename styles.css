@@ -344,8 +344,24 @@
     width: clamp(140px, 22vw, 400px);
     flex-shrink: 0; /* Ensures the image doesn't get squished too small */
     object-fit: contain;
-    margin-right: 2rem;
+    border-radius: 63% 63% 5% 5% / 100% 100% 16% 21% ;
 }
+.banner-logo::before{
+    content: "";
+    position: absolute;
+    inset: -2px; /* Make it slightly larger than the image */
+    z-index: -1;
+    border-radius: 63% 63% 5% 5% / 100% 100% 16% 21%;
+    background: white;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.411); /* Shadow effect */
+}
+.banner-logo{
+    margin-right: 1rem;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
 
 /*CDSA Section Styles*/
 .cdsa-section{
@@ -622,6 +638,7 @@
   .banner-logo{
     width: 120px;
     margin-right: 1em;
+    
   }
 }
 /* Screen Breakpoints */
