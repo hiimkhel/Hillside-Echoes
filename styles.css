@@ -577,6 +577,7 @@
   }
   .text-col{
     text-align: justify;
+    overflow: hidden;
   }
   .section-text{
     font-size: .7em;
