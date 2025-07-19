@@ -301,7 +301,7 @@
 }
 .banner-title-one {
   font-family: 'Black Ops One', sans-serif;
-  font-size: clamp(4rem, 2vw, 4.5rem);
+  font-size: clamp(5rem, 2vw, 4.5rem);
   margin-left: 6rem;
   margin-top: 8px;
   color: transparent;
@@ -314,9 +314,9 @@
 }
 .banner-title-two{
     font-family: 'Black Ops One', system-ui;
-    font-size: clamp(5rem, 2vw, 2rem);
+    font-size: clamp(5.5rem, 2vw, 2rem);
     text-indent: clamp(1em, 4vw, 3em);
-    margin-top: -3%;
+    margin-top: -4%;
     color: transparent;
     -webkit-text-stroke: 1px #0f0f3d;
     text-shadow:
@@ -328,15 +328,15 @@
 .banner-member{
     font-family: 'Rozha One', 'Times New Roman', Times, serif;
     color: white;
-    font-size: clamp(0.9rem, 1.3vw, 1.2rem);
-    margin-left: clamp(.5rem, 5vw, 160px);
-    margin-top: -10px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin-left: clamp(.5rem, 8vw, 160px);
+    margin-top: -2%;
 }
 .banner-publication{
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
     color: white;
-    font-size: clamp(0.8rem, 1.2vw, 1rem);
-    margin-left: clamp(1.2rem, 5vw, 10px);
+    font-size: clamp(1rem, 1.2vw, 1.5rem);
+    margin-left: clamp(1.2rem, 1.2vw, 10px);
 }
 .banner-img{
     max-width: 100%;
@@ -349,17 +349,17 @@
 .banner-logo::before{
     content: "";
     position: absolute;
-    inset: -2px; /* Make it slightly larger than the image */
+    inset: 0px;
     z-index: -1;
     border-radius: 63% 63% 5% 5% / 100% 100% 16% 21%;
     background: white;
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.411); /* Shadow effect */
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.411);
 }
 .banner-logo{
     margin-right: 1rem;
     position: relative;
     box-sizing: border-box;
-    overflow: visible;
+    overflow:visible;
 }
 
 
@@ -682,6 +682,60 @@
         margin-right: 0.9rem;
     }
 }
+
+@media (max-width: 509px){
+    .banner-publication{
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 425px){
+    .banner-date{
+        font-size: 10px;
+    }
+    .banner-member{
+        font-size: .5rem;
+    }
+    .banner-title-two{
+        font-size: 2rem;
+    }
+    .banner-publication{
+        font-size: .33rem;
+    }
+    .banner-logo{
+        margin-right: -.1px;
+    }
+}
+
+@media (max-width: 375px){
+    .inner-banner{
+        height: 80px;
+    }
+    .banner{
+        height: 100px;
+    }
+    .banner-date{
+        font-size: 7px;
+    }
+    .banner-member{
+        font-size: .45rem;
+    }
+    .banner-title-one{
+        font-size: 1.8rem;
+        margin-top: -1%;
+    }
+    .banner-title-two{
+        font-size: 1.7rem;
+    }
+    .banner-publication{
+        font-size: .3rem;
+    }
+    .banner-logo{
+        width: 65px;
+        margin-right: -.1px;
+    }
+}
+
 /* Medium devices (tablets) */
 
 /* Large devices (desktops) */
