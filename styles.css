@@ -369,6 +369,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    align-items: stretch;
+    overflow: visible;
 }
 .cdsa-left{
     flex: 2;
@@ -424,6 +426,7 @@
     margin-right: 12px;
     margin-top: 4px;
     background-color: #ffd858;
+    overflow: visible;
 }
 .cdsa-right-text{
     color: black;
@@ -433,18 +436,22 @@
     text-align: center;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
+.img-col{
+    overflow: visible;
+}
 .news-img{
     max-width: 135%;
     height: auto;
     display: block;
     object-fit: contain;
+    overflow: visible;
 }
 .news-img.one{
-    margin: -5rem 0rem 0rem -2rem;
+    margin: auto 0rem 0rem -2rem;
 
 }
 .news-img.two{
-    margin: -8rem 0rem 0rem -3rem;
+    margin: auto 0rem 0rem -3rem;
 }
 .news-img.three{
     margin: 1rem auto 4rem -1.8rem;
@@ -814,11 +821,11 @@
     }
     .news-img.one{
         max-width: 120%;
-        margin: -1rem 0rem 0rem -.5rem;
+        margin: auto;
     }
     .news-img.two{
         max-width: 120%;
-        margin: -2rem 0rem 0rem -.7rem;
+        margin: auto auto auto -1rem;
     }
     .news-img.three{
         margin: auto auto auto -.5rem;
@@ -873,6 +880,7 @@
     /* CDSA Section Responsiveness */
     .cdsa-section{
         gap: 10px;
+        
     }
     .cdsa-left{
         margin-left: 8px;
@@ -917,16 +925,15 @@
         gap: 4px;
     }
     .news-img.one{
-        max-width: 110px;
-        margin: auto 0rem 0rem -.5rem;
+        width: 120%;
+        margin: auto;
     }
     .news-img.two{
-        max-width: 110px;
-        margin: auto 0rem 0rem -1rem;
+        width: 130%;
+        margin-top: auto;
     }
     .news-img.three{
-        margin: 0rem 0rem 0rem -.5rem;
-        align-self: last baseline;
+        margin: auto 0rem 0rem -.5rem;
         width: 120%;
     }
     .bottom{
