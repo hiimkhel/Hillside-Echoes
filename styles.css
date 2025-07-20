@@ -419,7 +419,7 @@
     flex: 0 0 250px;
     max-width: 250px;
     padding: 1.5rem 1.2rem;
-    min-width: 250px;
+    width: 250px;
     margin-right: 12px;
     margin-top: 4px;
     background-color: #ffd858;
@@ -786,7 +786,58 @@
         gap: 10px;
     }
     .cdsa-left{
-        margin-left: 1em;
+        margin-left: 8px;
+    }
+    .cdsa-title{
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    .cdsa-author{
+        font-size: 5px;
+        margin-top: 2px;
+    }
+    .author-divider-cdsa{
+        width: 65%;
+        height: 2px;
+    }
+    .cdsa-left{
+        width: 220px;
+    }
+    .cdsa-img{
+        width: 220px;
+    }
+    .image-desc-cdsa{
+        font-size: 4px;
+        max-width: 220px;
+        margin-top: 1px;
+    }
+    .cdsa-right-section{
+        max-width: 60px;
+        padding: 4px;
+        margin-right: 4px;
+        overflow: visible;
+    }
+    .cdsa-right-text{
+        font-size: 10px;
+    }
+    .black-divider{
+        height: 2px;
+    }
+    .text-col{
+        margin-top: 12px;
+        gap: 4px;
+    }
+    .news-img.one{
+        max-width: 80px;
+        margin: 2rem 0rem 0rem -.5rem;
+    }
+    .news-img.two{
+        max-width: 80px;
+        margin: 2.5rem 0rem 0rem -.7rem;
+    }
+    .news-img.three{
+        margin: 6rem auto 0rem -.5rem;
+        width: 120%;
     }
 }
 /* Medium devices (tablets) */
