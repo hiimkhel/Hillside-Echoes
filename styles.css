@@ -738,6 +738,23 @@
 }
 
 @media (max-width: 320px){
+    
+    .news-section{
+        padding: 1em .5em 0em .5em;
+    }
+    .section-title{
+        font-size: 15px;
+    }
+    .section-author{
+        font-size: 7px;
+    }
+    .section-text{
+        font-size: 8px;
+    }
+    .image-desc{
+        font-size: 4px;
+    }
+    /* Banner Responsiveness*/
     .banner{
         height: 90px;
     }
@@ -762,6 +779,14 @@
     .banner-logo{
         width: 50px;
         margin-right: -.1px;
+    }
+
+    /* CDSA Section Responsiveness */
+    .cdsa-section{
+        gap: 10px;
+    }
+    .cdsa-left{
+        margin-left: 1em;
     }
 }
 /* Medium devices (tablets) */
