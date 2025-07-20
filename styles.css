@@ -752,6 +752,8 @@
         text-indent: 1.5em;
     }
     .cdsa-section{
+        display: flex;
+        align-items: stretch;
         gap: 10px;
     }
     .cdsa-left{
@@ -786,11 +788,22 @@
     .cdsa-right-section{
         max-width: 100px;
         padding: 4px;
+        display: flex;
+        flex-direction: column;
         margin-right: 4px;
         overflow: visible;
     }
+    .img-col{
+        display: flex;
+        overflow: visible;
+        flex-direction: column;
+        flex-grow: 1; 
+    }
     .cdsa-right-text{
-        font-size: 10px;
+        font-size: 14px;
+    }
+    .bottom{
+        margin-top: .5rem;
     }
     .black-divider{
         height: 2px;
@@ -805,10 +818,10 @@
     }
     .news-img.two{
         max-width: 120%;
-        margin: -1.5rem 0rem 0rem -.7rem;
+        margin: -2rem 0rem 0rem -.7rem;
     }
     .news-img.three{
-        margin: 0rem auto 0rem -.5rem;
+        margin: auto auto auto -.5rem;
         width: 120%;
     }
 }
