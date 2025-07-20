@@ -736,6 +736,21 @@
         width: 65px;
         margin-right: -.1px;
     }
+    .banner.page{
+        height: 100px;
+    }
+    .inner-banner.page{
+        height: 70px;
+        align-items: center;
+    }
+    .banner-num{
+        font-size: 2.7rem;
+        text-indent: .5em;
+    }
+    .banner-title{
+        font-size: 2.7rem;
+        text-indent: 1.5em;
+    }
     .cdsa-section{
         gap: 10px;
     }
