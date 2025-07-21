@@ -534,8 +534,8 @@
 .lengthwise-section{
     display: flex;
     flex-direction: column;
-    min-width: 280px;
-    max-width: 280px;
+    max-width: 240px;
+    width: auto;
     padding: 1rem;
 }
 .lengthwise-text-col{
@@ -590,7 +590,7 @@
         font-size: .4rem;
     }
     .small{
-        font-size: .5rem;
+        font-size: .6rem;
     }
     .medium{
         font-size: .67rem;
@@ -609,7 +609,7 @@
     }
   .news-section{
     gap: 6px;
-    padding: 2em 1.5em 0em 1.5em;
+    padding: 2em 1em 0em 1em;
   }
   .responsive-col{
     flex-direction: column;
@@ -620,7 +620,7 @@
   }
 
   .section-title{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .section-author{
     font-size: 10px;
@@ -730,6 +730,17 @@
   }
   #teachers-img{
     height: auto;
+  }
+  .lengthwise-section{
+    max-width: 500px;
+    padding: .3rem .2rem .2rem .2rem;
+    border-radius: 16px;
+  }
+  .lengthwise-section .section-author{
+    font-size: .25rem;
+  }
+  .lengthwise-section-title{
+    font-size: .7rem;
   }
 
 }
@@ -1051,6 +1062,18 @@
     .news-section-yellow{
         padding: .5rem .5rem 0rem 0rem;
     }
+    .lengthwise-section{
+        min-width: 25%;
+    }
+    .lengthwise-section-title{
+        font-size: .6rem;
+    }
+   #responsive-smaller{
+        font-size: .4rem;
+   }
+   .right-section .section-title{
+        font-size: .7rem;
+   }
 }
 
 /* Breakpoint */
