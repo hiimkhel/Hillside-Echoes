@@ -105,7 +105,7 @@
     min-width: 50%;
 }
 .wide-col-text{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-indent: 1.2em;
     margin-bottom: 1.1em;
     line-height: 1.7em;
@@ -512,9 +512,11 @@
 }
 #teachers-img-wrapper{
     width: 100%;
+    max-height: 350px;
     height: auto;
     background: linear-gradient(to right, #ff7b0e, #ffed4d);
     padding: 4px;
+    overflow: hidden;
     box-sizing: border-box;
 }
 #teachers-img{
@@ -607,8 +609,10 @@
     }
   .news-section{
     gap: 6px;
-    flex-direction: column;
     padding: 2em 1.5em 0em 1.5em;
+  }
+  .responsive-col{
+    flex-direction: column;
   }
   .news-section-yellow{
     gap: 6px;
@@ -699,6 +703,35 @@
     width: 120px;
     margin-right: 1em;
   }
+
+  /* Page Styles */
+  .centered-container .section-title{
+    text-align: center;
+  }
+  .news-flex-container{
+    margin-top: 1em;
+    gap: 4px;
+  }
+  .solo{
+    width: 25%;
+  }
+  .wide-col-text{
+    font-size: .4rem;
+  }
+  .wide-col .section-title{
+    font-size: .75rem;
+  }
+  .yellow{
+    padding: .5rem .5rem 0rem .5rem;
+  }
+  #teachers-img-wrapper{
+    margin-top: 2px;
+    height: auto;
+  }
+  #teachers-img{
+    height: auto;
+  }
+
 }
 /* Screen Breakpoints */
 @media (max-width: 560px){
@@ -784,7 +817,7 @@
         gap: 4px;
     }
     .banner{
-        height: 100px;
+        height: 90px;
     }
     .banner-date{
         font-size: 7px;
@@ -807,7 +840,7 @@
         margin-right: -.1px;
     }
     .banner.page{
-        height: 100px;
+        height: 80px;
     }
     .inner-banner.page{
         height: 70px;
@@ -819,7 +852,7 @@
     }
     .banner-title{
         font-size: 2.7rem;
-        text-indent: 1.5em;
+        text-indent: 1.2em;
     }
     .cdsa-section{
         display: flex;
@@ -915,10 +948,21 @@
     }
     /* Banner Responsiveness*/
     .banner{
-        height: 90px;
+        height: 80px;
     }
     .inner-banner{
         height: 70px;
+    }
+    .inner-banner.page{
+        align-items: center;
+    }
+    .banner-num{
+        font-size: 2.5rem;
+        text-indent: .5em;
+    }
+    .banner-title{
+        font-size: 2.5rem;
+        text-indent: 1em;
     }
     .banner-left{
         width: 100px;
@@ -1033,7 +1077,7 @@
         height: 80px;
     }
      .banner{
-        height: 100px;
+        height: 90px;
     }
     .banner-logo{
         width: 50px;
