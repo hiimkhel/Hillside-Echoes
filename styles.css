@@ -799,9 +799,6 @@
   .solo{
     width: 25%;
   }
-  .wide-col-text{
-    font-size: .4rem;
-  }
   .wide-col .section-title{
     font-size: .75rem;
   }
@@ -1071,7 +1068,12 @@
 }
 
 @media (max-width: 320px){
-
+    .smaller{
+        font-size: .4rem;
+    }
+    .small{
+        font-size: .5rem;
+    }
     .news-section{
         padding: 1em .5em 0em .5em;
     }
@@ -1205,8 +1207,14 @@
     .right-section .section-title{
             font-size: .7rem;
     }
+    .image-desc-yellow{
+        font-size: 3px;
+    }
 
    /* Feature Section */
+    .wide-col-text{
+    font-size: .45rem;
+  }
    .non-wrapped-container{
         overflow: visible;
    }
