@@ -590,7 +590,7 @@
         font-size: .4rem;
     }
     .small{
-        font-size: .6rem;
+        font-size: .5rem;
     }
     .medium{
         font-size: .67rem;
@@ -938,10 +938,12 @@
         margin: auto auto auto -.5rem;
         width: 120%;
     }
+    .lengthwise-section{
+        min-width: 23%;
+    }
 }
 
 @media (max-width: 320px){
-    
     .news-section{
         padding: 1em .5em 0em .5em;
     }
