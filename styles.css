@@ -543,9 +543,8 @@
 }
 .lengthwise-text-col{
     display: flex;
-    min-width: 50%;
     max-width: 50%;
-    gap: 40px;
+    gap: 20px;
     line-height: 1.5rem;
     margin-top: 20px;
 }
@@ -601,7 +600,8 @@
         margin-bottom: 1em; 
     }
     .large{
-        font-size: 1.2rem;
+        font-size: .65rem;
+        line-height: 1.1rem;
     }
     .larger{
         font-size: 1.2rem;
@@ -660,6 +660,9 @@
   }
   .image-desc{
     font-size: 6px;
+  }
+  .lengthwise-text-col{
+    gap: 14px;
   }
 
   /*Banner Responsiveness*/
@@ -866,6 +869,18 @@
     #sunshiney-text{
         font-size: 2rem;
     }
+      .img-wrapper-lengthwise{
+        height: 100%;
+        align-items: center;
+    }
+    .section-img-lengthwise{
+        margin: auto;
+        min-width: 100%;
+        height: fit-content;
+        border-radius: 24px;
+        object-fit: contain;
+    }
+
 
 }
 /* Screen Breakpoints */
@@ -1074,6 +1089,9 @@
     .small{
         font-size: .5rem;
     }
+    .large{
+        font-size: .55rem;
+    }
     .news-section{
         padding: 1em .5em 0em .5em;
     }
@@ -1209,6 +1227,22 @@
     }
     .image-desc-yellow{
         font-size: 3px;
+    }
+
+    /* 2nd Page (Feature Section) */
+    .wide-col{
+        height: auto;
+    }
+    .img-wrapper-lengthwise{
+        height: 50%;
+    }
+    .section-img-lengthwise{
+        height: auto;
+        border-radius: 24px;
+        object-fit: contain;
+    }
+    .lengthwise-text-col{
+        gap: 10px;
     }
 
    /* Feature Section */
