@@ -173,6 +173,8 @@
     justify-content: space-between;
     height: 100%; 
     max-width: 50%; 
+    min-width: 50%;
+    width: auto;
 }
 .img-wrapper-half-crosswise{
     display: flex;
@@ -191,6 +193,7 @@
     width: 100%;          
     height: auto;
     max-height: 350px;    
+    overflow: visible;
     margin-bottom: 1rem; 
 }
 .banner-logo{
@@ -607,6 +610,7 @@
     .largest{
 
     }
+   
   .news-section{
     gap: 6px;
     padding: 2em 1em 0em 1em;
@@ -944,6 +948,7 @@
 }
 
 @media (max-width: 320px){
+
     .news-section{
         padding: 1em .5em 0em .5em;
     }
@@ -951,6 +956,7 @@
         font-size: 1rem;
     }
     .section-author{
+        margin-top: 2px;
         font-size: 7px;
     }
     .section-text{
@@ -961,10 +967,10 @@
     }
     /* Banner Responsiveness*/
     .banner{
-        height: 80px;
+        height: 90px;
     }
     .inner-banner{
-        height: 70px;
+        height: 75px;
     }
     .inner-banner.page{
         align-items: center;
@@ -990,7 +996,7 @@
         font-size: 1.6rem;
     }
     .banner-publication{
-        font-size: .23rem;
+        font-size: .26rem !important;
     }
     .banner-logo{
         width: 50px;
@@ -1042,7 +1048,7 @@
     }
     .text-col{
         margin-top: 12px;
-        gap: 8px;
+        gap: 6px;
     }
     .news-img.one{
         width: 120%;
@@ -1076,6 +1082,42 @@
    .right-section .section-title{
         font-size: .7rem;
    }
+
+   /* Feature Section */
+   .non-wrapped-container{
+        overflow: visible;
+   }
+   .non-wrapped-img{
+        margin: auto;
+        height: 60%;
+   }
+    .responsive-feature-text{
+        font-size: .35rem;
+    }
+    .no-margin-top{
+        margin-top: -1.5em;
+    }
+    .right-align{
+        text-align: right !important;
+    }
+    .responsive-img-wrapper{
+        min-width: 40%;
+        width: 40%;
+        border: 1px;
+    }
+    .section-img{
+        padding: 2px;
+    }
+    #teachers-img-wrapper{
+        padding: 2px;
+    }
+    .rounded{
+        border-radius: 24px;
+    }
+    #sunshiney-text{
+        font-size: 1.3rem;
+    }
+
 }
 
 /* Breakpoint */
@@ -1099,7 +1141,7 @@
         font-size: 1.6em;
     }
     .inner-banner{
-        height: 80px;
+        height: 70px;
     }
      .banner{
         height: 90px;
