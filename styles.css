@@ -584,16 +584,16 @@
         text-align: justify;
     }
     .smallest{
-        font-size: .5rem;
+        font-size: .4rem;
     }
     .smaller{
-        font-size: .4rem;
+        font-size: .5rem;
     }
     #responsive-smaller{
-        font-size: .4rem;
+        font-size: .6rem;
     }
     .small{
-        font-size: .5rem;
+        font-size: .6rem;
     }
     .medium{
         font-size: .67rem;
@@ -613,7 +613,7 @@
    
   .news-section{
     gap: 6px;
-    padding: 2em 1em 0em 1em;
+    padding: 1.5em 1em 0em 1em;
   }
   .responsive-col{
     flex-direction: column;
@@ -627,15 +627,20 @@
     font-size: 1.5rem;
   }
   .section-author{
-    font-size: 10px;
+    font-size: 8px;
   }
   .author-divider{
-    width: 50%;
+    width: 30%;
     height: 2px;
+  }
+  .responsive-divider{
+    width: 55%;
   }
   .text-col{
     text-align: justify;
     overflow: hidden;
+    gap: 8px;
+    margin-top: 16px;
   }
   .section-text{
     font-size: .7em;
@@ -707,7 +712,82 @@
     width: 120px;
     margin-right: 1em;
   }
-
+  .inner-banner.page{
+    align-items: center;
+  }
+  .banner-num{
+        font-size: 4rem;
+        text-indent: .5em;
+    }
+    .banner-title{
+        font-size: 4rem;
+        text-indent: 1.5em;
+    }
+    /* CDSA Section */ 
+    .cdsa-section{
+        gap: 18px;
+    }
+    .cdsa-left{
+        margin-left: 18px;
+    }
+    .cdsa-title{
+        font-size: 2.2rem;
+        margin-top: 8px;
+    }
+    .cdsa-author{
+        font-size: 8px;
+        margin-top: 2px;
+    }
+    .author-divider-cdsa{
+        width: 70%;
+        height: 2px;
+    }
+    .cdsa-left{
+        width: 220px;
+    }
+    .cdsa-img{
+        width: 95%;
+    }
+    .image-desc-cdsa{
+        font-size: 6px;
+        max-width: 100%;
+        margin-top: 1px;
+    }
+    .cdsa-right-section{
+        max-width: 150px;
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 4px;
+        overflow: visible;
+    }
+    .img-col{
+        display: flex;
+        overflow: visible;
+        flex-direction: column;
+        flex-grow: 1; 
+    }
+    .cdsa-right-text{
+        font-size: 14px;
+    }
+    .bottom{
+        margin-top: .5rem;
+    }
+    .black-divider{
+        height: 2px;
+    }
+    .news-img.one{
+        max-width: 120%;
+        margin: auto;
+    }
+    .news-img.two{
+        max-width: 120%;
+        margin: auto auto auto -1.3rem;
+    }
+    .news-img.three{
+        margin: auto auto auto -1rem;
+        width: 120%;
+    }
   /* Page Styles */
   .centered-container .section-title{
     text-align: center;
@@ -735,17 +815,60 @@
   #teachers-img{
     height: auto;
   }
+  .image-desc-yellow{
+    font-size: 6px;
+  }
   .lengthwise-section{
-    max-width: 500px;
-    padding: .3rem .2rem .2rem .2rem;
+    max-width: 120px;
+    padding: .5rem .4rem .4rem .4rem;
     border-radius: 16px;
   }
   .lengthwise-section .section-author{
-    font-size: .25rem;
+    font-size: .5rem;
   }
   .lengthwise-section-title{
-    font-size: .7rem;
+    font-size: .9rem;
   }
+  .wide-col-text{
+    font-size: .55rem;
+  }
+
+  /* Feature Section */
+  .non-wrapped-container{
+    overflow: visible;
+    align-self: center;
+  }
+   .non-wrapped-img{
+        margin: auto;
+        height: 80%;
+        
+   }
+    .responsive-feature-text{
+        font-size: .5rem;
+    }
+    .no-margin-top{
+        margin-top: -1.5em;
+    }
+    .right-align{
+        text-align: right !important;
+    }
+    .responsive-img-wrapper{
+        min-width: 40%;
+        width: 40%;
+        border: 1px;
+    }
+    .section-img{
+        padding: 2px;
+    }
+    #teachers-img-wrapper{
+        padding: 2px;
+    }
+    .rounded{
+        border-radius: 24px;
+    }
+    #sunshiney-text{
+        font-size: 2rem;
+    }
 
 }
 /* Screen Breakpoints */
@@ -1076,12 +1199,12 @@
     .lengthwise-section-title{
         font-size: .6rem;
     }
-   #responsive-smaller{
-        font-size: .4rem;
-   }
-   .right-section .section-title{
-        font-size: .7rem;
-   }
+    #responsive-smaller{
+            font-size: .4rem;
+    }
+    .right-section .section-title{
+            font-size: .7rem;
+    }
 
    /* Feature Section */
    .non-wrapped-container{
@@ -1121,7 +1244,7 @@
 }
 
 /* Breakpoint */
-@media (max-width: 359px){
+@media (max-width: 360px){
     .banner-member{
         font-size: .4rem;
     }
