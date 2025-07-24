@@ -111,7 +111,6 @@
     line-height: 1.7em;
 }
 .align-left{
-    font-size: .8rem;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.1em;
     margin-bottom: 1em; 
@@ -199,6 +198,7 @@
     overflow: visible;
     margin-bottom: 1rem; 
 }
+
 .banner-logo{
     display: flex;
     flex-direction: column;
@@ -562,6 +562,38 @@
 .temp{
     height: 450px;
 }
+.img-background-crosswise{
+    max-width: 100vw;
+    overflow: hidden;
+    padding: 1em;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    position: relative;
+}
+.background-img{
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+    z-index: 1;
+    position: relative;
+}
+.background-title{
+    font-family: 'Bebas Neue';
+    font-size: 5.7rem;
+    font-style: italic;
+    z-index: 2;
+}
+.background-author{
+    margin-top: -1em;
+    z-index: 2;
+}
+.background-header{
+    z-index: 2;
+    position: relative;
+}
+
 .centered-container{
     max-width: none;            
     width: 100%;
@@ -575,6 +607,9 @@
     font-size: 2rem;
     text-align: center;
     font-weight: 400;
+}
+.sports-text-col{
+    margin-right: 1em;
 }
 /*CSS Media Queries*/
 /* Small devices (phones) */
