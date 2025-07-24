@@ -936,6 +936,12 @@
     }
 }
 @media (max-width: 425px){
+    .small{
+        font-size: .5rem;
+    }
+    .section-text{
+        font-size: .5rem;
+    }
     .banner{
         height: 120px;
     }
@@ -964,6 +970,24 @@
     }
     .section-title{
         font-size: .9rem;
+    }
+    .cdsa-right-section{
+        max-width: 100px;
+    }
+    .news-img.two{
+        margin-left: -1rem;
+    }
+    .news-img.three{
+        margin-left: -.5rem;
+    }
+    .cdsa-title{
+        font-size: 1.7rem;
+    }
+    .cdsa-author{
+        font-size: 6px;
+    }
+    .author-divider-cdsa{
+        width: 180px;
     }
 }
 
