@@ -146,6 +146,9 @@
     position: relative;
     z-index: -1;
 }
+.visible{
+    overflow: visible;
+}
 .no-margin-top{
     margin-top: -50px;
 }
@@ -662,7 +665,8 @@
     font-size: 6px;
   }
   .lengthwise-text-col{
-    gap: 14px;
+    gap: 12px;
+    margin-top: 4px;
   }
 
   /*Banner Responsiveness*/
