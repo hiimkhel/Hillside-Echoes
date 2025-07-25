@@ -255,7 +255,6 @@
     line-height: 1.1em;
     margin-bottom: 1em; 
 }
-
 /*Banner Styles*/
 .banner{
      background: linear-gradient(to right,  
@@ -611,6 +610,9 @@
 .sports-text-col{
     margin-right: 1em;
 }
+.centered{
+    display: flex;
+}
 /*CSS Media Queries*/
 /* Small devices (phones) */
 @media (max-width: 576px) {
@@ -627,6 +629,9 @@
         font-size: .5rem;
     }
     #responsive-smaller{
+        font-size: .6rem;
+    }
+    #responsive-small{
         font-size: .6rem;
     }
     .small{
@@ -922,6 +927,12 @@
         margin: auto;
         height: 100%;
     }
+    .sports-title{
+        font-size: 1.5em;
+    }
+    .centered-container .section-title{
+        font-size: .8rem;
+    }
 
 }
 /* Screen Breakpoints */
@@ -1057,6 +1068,18 @@
 }
 
 @media (max-width: 375px){
+    .small{
+        font-size: .5rem;
+    }
+    .smaller{
+        font-size: .45rem;
+    }
+    #responsive-smaller{
+        font-size: .43rem;
+    }
+    .large{
+        font-size: .55rem;
+    }
     .section-title{
         font-size: .9rem;
     }
@@ -1184,6 +1207,12 @@
     .lengthwise-section{
         min-width: 23%;
     }
+    .lengthwise-section-title{
+        font-size: .6rem;
+    }
+    .lengthwise-section .section-author{
+        font-size: .35rem;
+    }
 }
 
 @media (max-width: 320px){
@@ -1194,7 +1223,7 @@
         font-size: .5rem;
     }
     .large{
-        font-size: .55rem;
+        font-size: .45rem;
     }
     .news-section{
         padding: 1em .5em 0em .5em;
@@ -1204,7 +1233,7 @@
     }
     .section-author{
         margin-top: 2px;
-        font-size: 7px;
+        font-size: 5px;
     }
     .section-text{
         font-size: 7px;
@@ -1321,10 +1350,13 @@
         min-width: 25%;
     }
     .lengthwise-section-title{
-        font-size: .6rem;
+        font-size: .5rem;
+    }
+    .lengthwise-section .section-author{
+        font-size: .35rem;
     }
     #responsive-smaller{
-            font-size: .4rem;
+            font-size: .45rem;
     }
     .right-section .section-title{
             font-size: .7rem;
@@ -1332,12 +1364,13 @@
     .image-desc-yellow{
         font-size: 3px;
     }
-
     /* 2nd Page (Feature Section) */
     .wide-col{
         height: auto;
+        position: relative;
     }
     .img-wrapper-lengthwise{
+        align-self: center;
         height: 50%;
     }
     .section-img-lengthwise{
@@ -1390,7 +1423,9 @@
     #sunshiney-text{
         font-size: 1.3rem;
     }
-
+    .lengthwise-text-col{
+        gap: 6px;
+    }
 }
 
 /* Breakpoint */
