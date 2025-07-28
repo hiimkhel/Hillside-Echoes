@@ -683,6 +683,29 @@
 #sts2-img{
     width: 100%;
 }
+.globe-overlay-container{
+    position: relative;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    overflow: visible;
+}
+.globe-overlay-img{
+    width: 150%;
+    align-self: center;
+    z-index: -1;
+}
+.splice-text{
+    font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
+    font-size: 4rem;
+     text-shadow:  
+     -2px  -2px 0 #829D6A,
+     2px 2px 0 #829D6A; 
+    color: #BCCEAD;
+}
+#sts-p2-s2-container{
+    margin-left: -3.5em;
+}
 /*CSS Media Queries*/
 /* Small devices (phones) */
 @media (max-width: 576px) {
