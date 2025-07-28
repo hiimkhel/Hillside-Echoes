@@ -151,6 +151,9 @@
 .no-margin-top{
     margin-top: -50px;
 }
+.no-margin-bottom{
+    margin-bottom: -60px;
+}
 .rounded{
     border-radius: 48px;
 }
@@ -198,7 +201,16 @@
     overflow: visible;
     margin-bottom: 1rem; 
 }
-
+.page-divider{
+    width: 120%;
+    align-self: center;
+    z-index: -1;
+    background: linear-gradient(to right,  
+              #ffed4d,  
+              #ff7b0e,  
+              #ffed4d); 
+    height: 10px;
+}
 .banner-logo{
     display: flex;
     flex-direction: column;
@@ -618,7 +630,7 @@
     flex-wrap: nowrap;
     width: 100vw;
     gap: 1rem; /* optional spacing between text and image */
-    padding: 1rem 1rem 0rem 3rem;
+    padding: 1rem 1rem 0rem 4rem;
     overflow: visible;
 }
 #sts1{
@@ -644,11 +656,32 @@
 }
 .text-container{
     width: auto;
-    flex: 0 0 70%;
+    flex: 0 0 68%;
     min-width: 0;
+}
+.left-align{
+    text-align: left;
+}
+.half-centered-container{
+    margin-left: 30%;
+}
+.half-centered-container .section-title{
+    font-family: 'Roboto Flex', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.450);
 }
 .wrapped-container{
     position: relative;
+}
+#sts2-container{
+    overflow: visible;
+    margin-top: -15em;
+    margin-left: -5em;
+    z-index: 0;
+}
+#sts2-img{
+    width: 100%;
 }
 /*CSS Media Queries*/
 /* Small devices (phones) */
