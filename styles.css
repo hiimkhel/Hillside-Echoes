@@ -613,6 +613,43 @@
 .centered{
     display: flex;
 }
+.wrapped{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    gap: 1rem; /* optional spacing between text and image */
+    padding: 1rem 1rem 0rem 3rem;
+    overflow: visible;
+}
+#sts1{
+    width: auto;
+    height: auto;
+    display: block;
+    margin-top: 0rem;
+}
+#sts1-container{
+    width: 50%;
+    flex: 0 0 50%;
+    display: flex;
+    object-fit: contain;
+    overflow: visible;
+    position: absolute;
+    top: -150px; /* overlaps 10px into the banner */
+    right: -220px;
+    z-index: 2; 
+}
+#sts1-header .section-title{
+    font-family: 'Abril Fatface', 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+}
+.text-container{
+    width: auto;
+    flex: 0 0 70%;
+    min-width: 0;
+}
+.wrapped-container{
+    position: relative;
+}
 /*CSS Media Queries*/
 /* Small devices (phones) */
 @media (max-width: 576px) {
