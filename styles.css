@@ -676,12 +676,12 @@
 }
 #sts2-container{
     overflow: visible;
-    margin-top: -15em;
-    margin-left: -5em;
+    margin-top: -12em;
+    margin-left: -4em;
     z-index: 0;
 }
 #sts2-img{
-    width: 100%;
+    width: 90%;
 }
 .globe-overlay-container{
     position: relative;
