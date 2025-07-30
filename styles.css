@@ -746,7 +746,9 @@
     .largest{
 
     }
-   
+    .sts-text{
+        font-size: .53rem;
+    }
   .news-section{
     gap: 6px;
     padding: 1.5em 1em 0em 1em;
@@ -774,7 +776,7 @@
   }
   .text-col{
     text-align: justify;
-    overflow: hidden;
+    overflow: visible;
     gap: 8px;
     margin-top: 16px;
   }
@@ -1024,9 +1026,45 @@
         font-size: 1.5em;
     }
     .centered-container .section-title{
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
+    /* SciTech Page */
+    .wrapped{
+        padding: .3em .5em 0em 1em;
+        gap: 4px;
+    }
+    #sts1-header .section-title{
+        font-size: 1.3rem;
+    }
+    #sts1-container{
+        top: -30px;
+        right: -80px;
+    }
+    .text-container{
+        flex: 0 0 65%;
+    }
+    .half-centered-container .section-title{
+        font-size: 1.7rem;
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.450);
+    }
+    #sts2-container{
+        width: 50%;
+        margin-top: -2rem;
+        margin-left: -1rem;
+    }
+    #sts2-img{
+        width: 100%;
+    }
+    .no-margin-bottom{
+        margin-bottom: -20px;
+    }
+    #responsive-title{
+        font-size: 1.7rem;
+    }
+    #sts-p2-s2-container{
+        margin-left: -3em;
+    }
 }
 /* Screen Breakpoints */
 @media (max-width: 560px){
