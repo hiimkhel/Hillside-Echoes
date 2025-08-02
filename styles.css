@@ -21,7 +21,7 @@
     text-align: justify;
 }
 .smallest{
-    font-size: .9rem;
+    font-size: .75rem;
 }
 .smaller{
     font-size: 1.05rem;
@@ -613,7 +613,12 @@
     align-items: center;        
     justify-content: center; 
 }
-.sports-title{
+.sports-title-one{
+    font-family: 'Anton', 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.sports-title-two{
     font-family: 'Anton', 'Times New Roman', Times, serif;
     font-size: 2rem;
     text-align: center;
@@ -621,6 +626,10 @@
 }
 .sports-text-col{
     margin-right: 1em;
+}
+.dance-sports-section{
+    margin-top: -25px;
+    overflow: visible;
 }
 .centered{
     display: flex;
@@ -631,6 +640,25 @@
     width: 100vw;
     gap: 1rem; /* optional spacing between text and image */
     padding: 1rem 1rem 0rem 4rem;
+    overflow: visible;
+}
+.img-wrapper-sports{
+    width: 100%;
+    height: auto;
+}
+.lengthwise-section-sports{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: auto;
+}
+.lengthwise-section-sports .col{
+    margin-top: 10px;
+}
+.flex-sports{
+    display: flex;
+    padding: 0rem 1rem 0rem 0rem;
+    gap: 18px;
     overflow: visible;
 }
 #sts1{
