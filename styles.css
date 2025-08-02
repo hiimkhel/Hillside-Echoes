@@ -661,6 +661,11 @@
     gap: 18px;
     overflow: visible;
 }
+.crosswise-sports{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
 #sts1{
     width: auto;
     height: auto;
@@ -734,17 +739,109 @@
 #sts-p2-s2-container{
     margin-left: -3.5em;
 }
+.center-img{
+    margin: auto;
+}
 /*CSS Media Queries*/
+@media (max-width: 1024px){
+    .section-title{
+        font-size: 24px;
+    }
+    .section-author{
+        font-size: 10px;
+    }
+    .cdsa-author{
+        font-size: 10px;
+    }
+    .cdsa-left{
+        margin-left: 2em;
+    }
+    .cdsa-title{
+        font-size: 4rem;
+    }
+    .cdsa{
+        margin-top: 14px;
+    }
+    .image-desc-cdsa{
+        font-size: .8rem;
+    }
+    .cdsa-right-section{
+        max-width: 200px;
+    }
+
+    /*Banner Responsiveness*/
+    .banner{
+        height: 220px;
+    }
+    .inner-banner{
+        height: 200px;
+    }
+  .banner-left{
+    min-width: min-content;
+  }
+  .banner-date-and-title{
+    padding: 6px;
+    gap: 10px;
+  }
+  .banner-date{
+    font-size: 1.3rem;
+  }
+  .banner-title-one{
+    font-size: 4.6rem;
+    margin-left:6rem;
+    -webkit-text-stroke: 1px #0f0f3d; 
+    text-shadow:
+    1px -1px 0 #ffffff,   
+    3px -3px 0 #0f0f3d,   
+    5px -5px 0 #0f0f3d,   
+    7px -7px 0 #ffffff;   
+  }
+  .banner-title-two{
+    font-size: 4.6rem;
+    margin-left: -18px;
+    -webkit-text-stroke: 1px #0f0f3d;
+    text-shadow:
+    1px -1px 0 #ffde59,   
+    3px -3px 0 #0f0f3d,   
+    5px -5px 0 #0f0f3d,   
+    7px -7px 0 #ffde59  
+    
+  }
+  .banner-member{
+    font-size: 1em;
+  }
+  .banner-publication{
+    font-size: .8rem;
+  }
+  .banner-logo{
+    height: auto;
+    width: 200px;
+    margin-right: .5em;
+  }
+  .inner-banner.page{
+    align-items: center;
+  }
+  .banner-num{
+        font-size: 4rem;
+    }
+    .banner-title{
+        font-size: 4rem;
+    }
+    /* Page Styles */
+    .news-section{
+        padding: 1rem 2rem 0rem 2rem;
+    }
+}
 /* Small devices (phones) */
 @media (max-width: 576px) {
   /* mobile styles */
     .text{
         font-family: 'Times New Roman', Times, serif;
-        margin-bottom: 1.1em;
+        margin-bottom: 1em;
         text-align: justify;
     }
     .smallest{
-        font-size: .4rem;
+        font-size: .5rem;
     }
     .smaller{
         font-size: .5rem;
@@ -764,7 +861,7 @@
         margin-bottom: 1em; 
     }
     .large{
-        font-size: .65rem;
+        font-size: .55rem;
         line-height: 1.1rem;
     }
     .larger{
@@ -1093,6 +1190,30 @@
     #sts-p2-s2-container{
         margin-left: -3em;
     }
+
+    /* Sports Page */
+    .background-title{
+        font-size: 2.2rem;
+    }
+    .background-author{
+        font-size: .45rem;
+        margin-top: -.8em;
+    }
+    .background-img{
+        margin-top: -15px;
+    }
+    .sports-title-one{
+        font-size: .8rem;
+    }
+    .sports-title-two{
+        font-size: .7rem;
+    }
+    .flex-sports{
+        gap: 8px;
+    }
+    .dance-sports-section{
+        margin-top: -20px;
+    }
 }
 /* Screen Breakpoints */
 @media (max-width: 560px){
@@ -1106,6 +1227,7 @@
         width: 100px;
         margin-right: 1em;
     }
+
 }
 @media (max-width: 425px){
     .small{
@@ -1621,6 +1743,6 @@
 
 /* Large devices (desktops) */
 @media (max-width: 1325px ) {
-  
+
 }
 
