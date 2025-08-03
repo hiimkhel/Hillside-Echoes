@@ -771,6 +771,34 @@
 }
 /*CSS Media Queries*/
 @media (max-width: 1024px){
+    /* Font Styles*/
+    .section-text{
+        font-size: .9rem;
+    }
+    .smallest{
+        font-size: .7rem;
+    }
+    .smaller{
+        font-size: .7rem;
+    }
+    .small{
+        font-size: .8rem;
+    }
+    .large{
+        font-size: .8rem;
+    }
+    .responsive-feature-text{
+        font-size: .8rem;
+    }
+    .wide-col-text{
+        font-size: .9rem;
+    }
+    .left-section{
+        min-width: 50%;
+    }
+    .text-col{
+        gap: 14px;
+    }
     .section-title{
         font-size: 24px;
     }
@@ -795,7 +823,22 @@
     .cdsa-right-section{
         max-width: 200px;
     }
-
+    .news-img.one{
+        width: 120%;
+    }
+    .news-img.news-img.two{
+        width: 120%;
+    }
+    .news-img.three{
+        margin-top: 2rem;
+        width: 120%;
+    }
+    .image-desc{
+        font-size: 6px;
+    }
+    .no-margin-top{
+        margin-top: -20px;
+    }
     /*Banner Responsiveness*/
     .banner{
         height: 220px;
@@ -857,6 +900,41 @@
     /* Page Styles */
     .news-section{
         padding: 1rem 2rem 0rem 2rem;
+    }
+    .lengthwise-section{
+        max-width: 220px;
+    }
+    .lengthwise-section-title{
+        font-size: 1.3rem;
+    }
+    /* Sci-tech Page */
+    #sts1-header .section-title{
+        font-size: 2.5rem;
+    }
+    .half-centered-container .section-title{
+        font-size: 3rem;
+    }
+    #sts2-container{
+        width: 60%;
+    }
+    #sts2-img{
+        width: 100%;
+    }
+    .no-margin-bottom{
+        margin-bottom: -100px;
+    }
+    /* Sports Page */
+    .background-title{
+        font-size: 4rem;
+    }
+    .background-author{
+        font-size: .7rem;
+    }
+    .sports-title-one{
+        font-size: 1.5rem;
+    }
+    .sports-title-two{
+        font-size: 1.5rem;
     }
 }
 /* Small devices (phones) */
