@@ -245,8 +245,11 @@
 }
 .lengthwise-section-title{
     font-family: 'Alfa Slab One', 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+.lengthwise-section .section-author{
+    font-size: 11px;
 }
 .section-author{
     margin-top: 8px;
@@ -934,7 +937,7 @@
         font-size: 1.5rem;
     }
     .sports-title-two{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 /* Small devices (phones) */
