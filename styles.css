@@ -940,6 +940,178 @@
         font-size: 1.3rem;
     }
 }
+@media (max-width: 768px){
+    .small{
+        font-size: .7rem;
+    }
+    .smaller{
+        font-size: .65rem;
+    }
+    .smallest{
+        font-size: .6rem;
+    }
+    .section-title{
+        font-size: 1.2rem;
+    }
+    .section-author{
+        font-size: 8px;
+    }
+    .section-text{
+        font-size: .65rem;
+    }
+    .news-section{
+        gap: 8px;
+        padding: .5rem 1.5rem 0rem 1.5rem;
+    }
+    .text-col{
+        gap: 6px;
+    }
+    /* Banner Styles */
+    .banner{
+        height: 180px;
+    }
+    .inner-banner{
+        height: 160px;
+    }
+  .banner-left{
+    min-width: min-content;
+  }
+  .banner-date-and-title{
+    padding: 6px;
+    gap: 10px;
+  }
+  .banner-date{
+    font-size: 1.1rem;
+  }
+  .banner-title-one{
+    font-size: 3.5rem;
+    margin-left:4rem;
+    -webkit-text-stroke: 1px #0f0f3d; 
+    text-shadow:
+    1px -1px 0 #ffffff,   
+    3px -3px 0 #0f0f3d,   
+    5px -5px 0 #0f0f3d,   
+    7px -7px 0 #ffffff;   
+  }
+  .banner-title-two{
+    font-size: 3.5rem;
+    margin-left: -20px;
+    -webkit-text-stroke: 1px #0f0f3d;
+    text-shadow:
+    1px -1px 0 #ffde59,   
+    3px -3px 0 #0f0f3d,   
+    5px -5px 0 #0f0f3d,   
+    7px -7px 0 #ffde59  
+    
+  }
+  .banner-member{
+    font-size: .9em;
+  }
+  .banner-publication{
+    font-size: .6rem;
+  }
+  .banner-logo{
+    height: auto;
+    width: 160px;
+    margin-right: .3em;
+  }
+  .inner-banner.page{
+    align-items: center;
+  }
+  .banner-num{
+        font-size: 4rem;
+    }
+    .banner-title{
+        font-size: 4rem;
+        text-indent: 3em;
+    }
+    
+    /* CDSA Styles */
+    .cdsa-section{
+        gap: 20px;
+    }
+    .cdsa-left{
+        margin-left: 1.5em;
+    }
+    .cdsa-title{
+        font-size: 3rem;
+    }
+    .cdsa-author{
+        font-size: 8px;
+    }
+    .author-divider-cdsa{
+        width: 50%;
+    }
+    .image-desc-cdsa{
+        font-size: .5rem;
+    }
+    .cdsa-right-section{
+        max-width: 140px;
+    }
+    .cdsa-right-text{
+        font-size: 1.2rem;
+    }
+
+    .news-img.one{
+        width: 150%;
+        margin-top: 1rem;
+        margin-left: .5rem;
+    }
+    .news-img.two{
+        width: 150%;
+        margin-left: -2rem;
+    }
+    .news-img.three{
+        width: 150%;
+        margin: 3rem auto auto -1.8rem;;
+    }
+    /* News Styles */
+    .image-desc-yellow{
+        font-size: .5rem;
+    }
+    .wide-col-text{
+        font-size: .8rem;
+    }
+    .yellow{
+        padding: 1rem .5rem 0rem 1rem;
+    }
+    #teachers-img-wrapper{
+        max-height: 300px;
+    }
+    /* Sports PAge */
+    .background-title{
+        font-size: 3rem;
+    }
+    .background-author{
+        font-size: .6rem;
+    }
+    .background-img{
+        margin-top: -25px;
+    }
+    .responsive-flex{
+        margin-top: -25px;
+    }
+    .sports-title-one{
+        font-size: 1rem;
+    }
+    .sports-title-two{
+        font-size: 1rem;
+    }
+    .flex-sports{
+        gap: 6px;
+    }
+    .lengthwise-section{
+        padding: .5rem;
+        border-radius: 20px;
+    }
+    .lengthwise-section .section-author{
+        font-size: 8px;
+    }
+    .lengthwise-section-title{
+        font-size: 1.1rem;
+    }
+
+}
 /* Small devices (phones) */
 @media (max-width: 576px) {
   /* mobile styles */
@@ -1603,6 +1775,36 @@
         font-size: .35rem;
     }
 }
+/* Breakpoint */
+@media (max-width: 360px){
+    .banner-member{
+        font-size: .4rem;
+    }
+    .banner-publication{
+        font-size: .28rem;
+    }
+    .banner-logo{
+        width: 60px;
+    }
+}
+
+@media (max-width: 336px){
+    .banner-title-one{
+        font-size: 1.8em;
+    }
+     .banner-title-two{
+        font-size: 1.6em;
+    }
+    .inner-banner{
+        height: 70px;
+    }
+     .banner{
+        height: 90px;
+    }
+    .banner-logo{
+        width: 50px;
+    }
+}
 
 @media (max-width: 320px){
     .smaller{
@@ -1635,7 +1837,7 @@
         height: 90px;
     }
     .inner-banner{
-        height: 75px;
+        height: 70px;
     }
     .inner-banner.page{
         align-items: center;
@@ -1817,36 +2019,7 @@
     }
 }
 
-/* Breakpoint */
-@media (max-width: 360px){
-    .banner-member{
-        font-size: .4rem;
-    }
-    .banner-publication{
-        font-size: .28rem;
-    }
-    .banner-logo{
-        width: 60px;
-    }
-}
 
-@media (max-width: 333px){
-    .banner-title-one{
-        font-size: 1.8em;
-    }
-     .banner-title-two{
-        font-size: 1.6em;
-    }
-    .inner-banner{
-        height: 70px;
-    }
-     .banner{
-        height: 90px;
-    }
-    .banner-logo{
-        width: 50px;
-    }
-}
 /* Medium devices (tablets) */
 
 /* Large devices (desktops) */
