@@ -950,6 +950,9 @@
     .smallest{
         font-size: .6rem;
     }
+    .large{
+        font-size: .7rem;
+    }
     .section-title{
         font-size: 1.2rem;
     }
@@ -1111,6 +1114,41 @@
         font-size: 1.1rem;
     }
 
+    /* Feature Page */
+    .lengthwise-text-col{
+        gap: 12px;
+        line-height: 1.3rem;
+    }
+
+    /* SciTEch Page */
+    .wrapped{
+        padding: .5rem .5rem 0rem 1.5rem;
+    }
+    #sts1-header .section-title{
+        font-size: 1.8rem;
+    }
+    #sts1-container{
+        position: absolute;
+        top: -50px;
+        right: -100px;
+    }
+    .half-centered-container .section-title{
+        font-size: 2.2rem;
+        text-shadow: 2.5px 2.5px 0px rgba(0, 0, 0, 0.450);
+    }
+    #sts2-container{
+        width: 65%;
+        margin-top: -10em;
+    }
+    .no-margin-bottom{
+        margin-bottom: -20px;
+    }
+    #responsive-title{
+        font-size: 2rem;
+    }
+    #sts-p2-s2-container{
+        margin-left: -4em;
+    }
 }
 /* Small devices (phones) */
 @media (max-width: 576px) {
