@@ -21,7 +21,7 @@
     text-align: justify;
 }
 .smallest{
-    font-size: .75rem;
+    font-size: .8rem;
 }
 .smaller{
     font-size: 1.05rem;
@@ -30,7 +30,7 @@
     font-size: 1.1rem;
 }
 .medium{
-    font-size: .67rem;
+    font-size: .8rem;
     line-height: 1.1em;
     margin-bottom: 1em; 
 }
@@ -650,7 +650,7 @@
 }
 .sports-title-two{
     font-family: 'Anton', 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     font-weight: 400;
 }
@@ -658,7 +658,7 @@
     margin-right: 1em;
 }
 .dance-sports-section{
-    margin-top: -25px;
+    margin-top: -50px;
     overflow: visible;
 }
 .centered{
